@@ -3,9 +3,10 @@ import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "Batches & Fees — Aadhavan Maths Academy, Kilpauk",
+  title: "Batches & Fees",
   description:
     "Class 6 to 12 maths tuition batch timings and monthly fees. CBSE, State Board, ICSE. Kilpauk, Chennai. Free demo class for new students.",
+  alternates: { canonical: "https://aadhavan-maths-academy.vercel.app/batches" },
 };
 
 const batches = [

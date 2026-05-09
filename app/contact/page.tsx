@@ -3,9 +3,10 @@ import ContactForm from "@/components/ContactForm";
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Aadhavan Maths Academy, Kilpauk",
+  title: "Contact Us",
   description:
     "Visit Aadhavan Maths Academy at Kilpauk Garden Road, Chennai. Call +91 97904 95049 or fill the enquiry form to book a free demo class.",
+  alternates: { canonical: "https://aadhavan-maths-academy.vercel.app/contact" },
 };
 
 export default function ContactPage() {

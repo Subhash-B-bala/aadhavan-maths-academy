@@ -3,9 +3,10 @@ import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "Student Results — Aadhavan Maths Academy, Kilpauk",
+  title: "Student Results",
   description:
     "See the maths scores our students have achieved across CBSE, State Board and ICSE. Class 6 to 12. Kilpauk, Chennai.",
+  alternates: { canonical: "https://aadhavan-maths-academy.vercel.app/results" },
 };
 
 // ─── Data ────────────────────────────────────────────────────────────────────
